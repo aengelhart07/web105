@@ -1,0 +1,38 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background: ivory;
+    color: dimgray;
+    border: 5px solid skyblue;
+}
+
+header {
+    background-color: cornsilk;
+    text-align: center;
+    color: cadetblue;
+}
+
+nav {
+    text-align: center;
+}
+
+a:link,
+a:visited {
+    background-color: lightskyblue;
+    color: lightslategray;
+    text-decoration: none;
+    border: 3px solid lightskyblue;
+    border-radius: 15px;
+    padding: 20px 15px;
+}
+
+a:hover,
+a:active {
+    background-color: royalblue;
+    color: silver;
+    border: 3px solid royalblue;
+    border-radius: 10px;
+    padding: 20px 15px;
+}
